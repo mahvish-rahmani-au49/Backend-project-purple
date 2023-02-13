@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link href="./css/home.css" rel="stylesheet">
+    <link href="./css/product.css" rel="stylesheet">
+    <link href="./css/footer.css" rel="stylesheet">
+    <script src="./js/home.js" defer></script>
+    <script src="./js/product.js" defer></script>
+
+</head>
+<body>
+    <nav class="navbaar">
+        <div class="nav">
+            <img src="./images/logo.jpg" class="brand-logo" alt="">
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search brand product">
+                    <button class="search-btn">Search</button>
+
+                </div>
+                <a href="#"><img src="./images/user.jpg" alt=""></a> 
+                <a href="#"><img src="./images/cart.png" alt=""></a>
+            </div>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="#" class="link">Home</a></li>
+            <li class="link-item"><a href="#" class="link">Skincare</a></li>
+            <li class="link-item"><a href="#" class="link">Makeup</a></li>
+            <li class="link-item"><a href="#" class="link">Brand</a></li>
+            <li class="link-item"><a href="#" class="link">Accessories</a></li>
+        </ul>
+
+    </nav>
+    <section class="product-details">
+        <div class="image-slider">
+            <div class="product-images">
+                <img src="./images/mb.jpg" class="active" alt="">
+                <img src="./images/lips.jpg" alt="">
+                <img src="./images/sd.jpg" alt="">
+                <img src="./images/BAG.jpg" alt="">
+            </div>
+        </div>
+        <div class="details">
+            <h2 class="product-brand">Maybelline</h2>
+            <p class="product-short-des">Soft and Subtle or Dramatic and Bold, Own Your Pout in Style with Maybelline Lipsticks..</p>
+            <span class="product-price">₹350</span>
+            <span class="product-actual-price">₹449</span>
+            <span class="product-discount">( 20% off )</span>
+    
+            <p class="product-sub-heading">Choose shades</p>
+    
+            <input type="radio" name="shade" value="brown" checked hidden id="brown-size">
+            <label for="brown-shase" class="shade-radio-btn check">brown</label>
+            <input type="radio" name="shade" value="red" hidden id="red-shade">
+            <label for="red-shade" class="shade-radio-btn">red</label>
+            <input type="radio" name="shade" value="pink" hidden id="pink-shade">
+            <label for="pink-shade" class="shade-radio-btn">pink</label>
+            <input type="radio" name="shade" value="peach" hidden id="peach-shade">
+            <label for="peach-shade" class="shade-radio-btn">peach</label>
+            <input type="radio" name="shade" value="xxl" hidden id="merlot-shade">
+            <label for="merlot-shade" class="shade-radio-btn">merlot
+
+            </label>
+    
+            <button class="btn cart-btn">add to cart</button>
+            <button class="btn wishlist-btn">add to wishlist</button>
+        </div>
+    </section>
+    <!---------------------->
+    <section class="detail-des">
+        <h2 class="heading">description</h2>
+        <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, ......</p>
+    </section>
+    <section class="product">
+        <h2 class="product-category"> Our best selling Product</h2>
+        <button class="pre-btn"><img src="./images/rightArrow.png"></button>
+        <button class="next-btn"><img src="./images/rightArrow.png"></button>
+    </section>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="./images/mac.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Mac</h2>
+                <p class="product-short-des">It is free of mineral oil</p>
+                <span class="price">₹199</span><span class="actual-price">₹399</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">40% off</span>
+                <img src="./images/base.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Armani</h2>
+                <p class="product-short-des">silky smooth tecture</p>
+                <span class="price">₹1200</span><span class="actual-price">₹2000</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="./images/facewash.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Cetaphil</h2>
+                <p class="product-short-des">Gentle skin cleanser</p>
+                <span class="price">₹450</span><span class="actual-price">₹500</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">30% off</span>
+                <img src="./images/fogg.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Fogg</h2>
+                <p class="product-short-des">Fregnence by scent</p>
+                <span class="price">₹1050</span><span class="actual-price">₹1500</span>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">20% off</span>
+                <img src="./images/pallate.jpg" class="product-thumb" alt="">
+                <button class="card-btn">add to wishlist</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Huda Beauty</h2>
+                <p class="product-short-des">High Pigmented</p>
+                <span class="price">₹9009</span><span class="actual-price">₹1300</span>
+            </div>
+        </div>
+        <!------------>
+
+        <!--footer>
+            <div class="footer-content">
+                <img src="./images/logo.jpg" class="logo" alt="">
+                <div class="footer-ul-container">
+                    <ul class="category">
+                        <li class="category-title">men</li>
+                        <li><a href="#" class="footer-link">t-shirts</a></li>
+                        <li><a href="#" class="footer-link">sweatshirts</a></li>
+                        <li><a href="#" class="footer-link">shirts</a></li>
+                        <li><a href="#" class="footer-link">jeans</a></li>
+                        <li><a href="#" class="footer-link">trousers</a></li>
+                        <li><a href="#" class="footer-link">shoes</a></li>
+                        <li><a href="#" class="footer-link">casuals</a></li>
+                        <li><a href="#" class="footer-link">formals</a></li>
+                        <li><a href="#" class="footer-link">sports</a></li>
+                        <li><a href="#" class="footer-link">watch</a></li>
+                    </ul>
+                    <ul class="category">
+                        <li class="category-title">women</li>
+                        <li><a href="#" class="footer-link">t-shirts</a></li>
+                        <li><a href="#" class="footer-link">sweatshirts</a></li>
+                        <li><a href="#" class="footer-link">shirts</a></li>
+                        <li><a href="#" class="footer-link">jeans</a></li>
+                        <li><a href="#" class="footer-link">trousers</a></li>
+                        <li><a href="#" class="footer-link">shoes</a></li>
+                        <li><a href="#" class="footer-link">casuals</a></li>
+                        <li><a href="#" class="footer-link">formals</a></li>
+                        <li><a href="#" class="footer-link">sports</a></li>
+                        <li><a href="#" class="footer-link">watch</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer--> 
+</body>
+</html>
